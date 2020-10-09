@@ -1,0 +1,48 @@
+/* Header */
+
+div img{
+	width: 100%;
+	max-width: 100%;
+}
+
+#logo{
+	float: left;
+	width: 19%;
+}
+
+#nav{
+	float: right;
+	width: 68%;
+	position: relative;
+}
+
+#nav-link-email{
+	font-size: $fontsize;
+	color: #999898;
+	text-decoration: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#nav-list{
+	list-style: none;
+	margin: 4% 0 0 0;
+	padding: 0;
+}
+
+#nav-list li{
+	float: left;
+}
+
+#nav-list li + li{
+	margin-left: 6%;
+}
+
+#nav-list a{
+	font-size: $fontsize;
+	font-weight: bold;
+	color: #fe9b00;
+	text-decoration: none;
+	text-transform: uppercase;
+}

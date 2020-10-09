@@ -1,0 +1,23 @@
+/* Global */
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: 17px solid #090909;
+	margin: 0;
+}
+
+h2{
+	font-size: 18px;
+	padding-left: 30px;
+	background-position: 0 7px;
+}
+
+h3{
+	font-size: $fonsize;
+	padding-left: 23px;
+	background-size: 8px;
+	background-position: 0 5px;
+}
+
+h2,h3{
+	@include h2h3;
+}
