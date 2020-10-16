@@ -1,0 +1,11 @@
+//estilos para tablet
+@media(max-width: 1023px){
+    nav-list{
+        display:none;
+    }
+    .nav-link-menu{
+        display:block;
+        text-align: right;
+        margin-top: 45px;
+    }
+}

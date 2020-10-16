@@ -132,7 +132,7 @@ h2, h3 {
 .box-img {
   width: 22%;
   float: left;
-  background-color: red; }
+}
 
 .box-img a, .box-img img {
   display: block; }
