@@ -1,5 +1,15 @@
 //estilos para tablet
 @media(max-width: 1023px){
+
+    //se usa un selector avanzado para 
+    //crear espaciados entre todos los div
+    .wrapper .space-tablet{
+        >div{
+            padding: 20px 0;
+        }
+    }
+
+
     nav-list{
         display:none;
     }
@@ -7,5 +17,52 @@
         display:block;
         text-align: right;
         margin-top: 45px;
+    }
+
+// boxes - main content
+
+    .box{
+        width: 100%;
+    }
+    .box + .box{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    //imagenes portfolio
+
+    .box-img{
+        // 50% entre el w y el p
+        width: 48%;
+        padding: 1%;
+    }
+
+    .box-img + .box-img{
+        //se elimina el margin entre las imágenes
+        margin-left: 0;
+    }
+
+
+    // la parte de la info
+
+    #blog-updates{
+        width: 100%;
+        margin-right:0;
+        float:none;
+    }
+
+    #connect-with-us{
+        width: 100%;
+        float:none;
+    }
+
+    //footer
+
+    .footer-logo{
+        //se quita el position absolute que tiene el logo
+        //posición default:
+        position: static;
+        //ponerle espaciado al logo
+        margin-top: 15px;
     }
 }

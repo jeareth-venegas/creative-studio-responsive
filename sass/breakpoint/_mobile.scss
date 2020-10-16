@@ -1,7 +1,18 @@
 //estilos para el móvil
 
 @media(max-width:767px){
-    #nav-list{
-        display: none;
+
+    // imagenes del portfolio
+    .box-img{
+        width: 100%;
+        padding:0;
+        //se quita el float:left;
+        float: none;
     }
+    .box-img + .box-img{
+        //espacio entre las imagenes
+        margin-top: 20px;
+    }
+
+    
 }
