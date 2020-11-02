@@ -6,18 +6,18 @@ body{
 }
 
 h2{
-	font-size: 18px;
+	font-size: 1.125em;
 	padding-left: 30px;
 	background-position: 0 7px;
 }
 
 h3{
-	font-size: $fonsize;
+	font-size: 0.75em;
 	padding-left: 23px;
 	background-size: 8px;
 	background-position: 0 5px;
 }
 
-h2,h3{
+h2, h3{
 	@include h2h3;
 }

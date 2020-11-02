@@ -1,25 +1,16 @@
 //CARPETAS
-@import "Mixins/_mixins";
-@import "Partials/_global";
-@import "Partials/_header";
-@import "Partials/_main";
-@import "Partials/_info";
-@import "Partials/_portfolio";
-@import "Partials/_footer";
-
-$fontsize:12px;
-$color1:#5d5d5d;
-$color2:#090909;
-$color3:#fe9b00;
-$color4: #999898;
-$color5:#c0c0c0;
-$bck-color1:#e2e2e2;
-
+@import "Mixins/mixins";
+@import "Partials/global";
+@import "Partials/header";
+@import "Partials/main";
+@import "Partials/info";
+@import "Partials/portfolio";
+@import "Partials/footer";
+@import"Partials/settings";
 //BREAKPOINTS
 @import "breakpoint/_all";
-
-
 
 //se puede hacer mixins para el breakpoint
 //el valor del breakpoint debe ser una variable(valores globales)
 
+@import"normalize";
